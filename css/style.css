@@ -1,0 +1,14 @@
+
+/* HEADER */
+body header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/* h1 */
+body header h1 b {
+    display: block;
+}
