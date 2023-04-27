@@ -1,5 +1,6 @@
 body {
     background: var(--Very-Light-Gray);
+    padding: 7rem 4rem;
 }
 
 /* HEADER */
@@ -9,7 +10,8 @@ body header{
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding: 7rem 4rem;
+
+    margin-bottom: 4rem;
 }
 
 /* h1 */
