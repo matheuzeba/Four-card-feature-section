@@ -58,6 +58,13 @@ body main .col {
     
 }
 
+/* text */
+body main .col .text h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--Very-Dark-Blue);
+}
+
 /* img */
 body main .col .image-wrapper {
     display: flex;
