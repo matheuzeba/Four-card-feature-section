@@ -55,6 +55,11 @@ body main .col {
     height: 20rem;
 
     padding: 2rem;
+    border-radius: 1rem;
+    border-top: 0.5rem solid var(--Red);
+    box-shadow: 0rem 0rem 2rem 2px hsla(0, 0%, 0%, 10%);
+
+    background: var(--Very-Light-Gray);
     
 }
 
@@ -63,6 +68,13 @@ body main .col .text h2 {
     font-size: 2rem;
     font-weight: 600;
     color: var(--Very-Dark-Blue);
+    margin-bottom: 0.5rem;
+}
+
+body main .col .text p {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: var(--Grayish-Blue);
 }
 
 /* img */
