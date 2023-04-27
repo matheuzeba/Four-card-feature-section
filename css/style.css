@@ -26,7 +26,8 @@ body header h1 b {
     font-size: 2rem;
     margin-top: 0.5rem;
     display: block;
-
+    text-decoration: underline wavy #5155B5;
+    text-underline-position: under;
     color: var( --Very-Dark-Blue);
 }
 
@@ -87,7 +88,13 @@ body main .component  .col .image-wrapper {
 
 body main .component  .col .image-wrapper img{
     max-width: 6.4rem;
+    transition: ease 0.5s;
 }
+
+body main .component  .col .image-wrapper img:hover {
+    margin-bottom: 1rem;
+}
+
 
 body main .component  .col-2 {
     display: flex;
