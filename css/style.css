@@ -59,7 +59,6 @@ body main .component .col {
 
     padding: 2rem;
     border-radius: 1rem;
-    border-top: 0.5rem solid var(--Red);
     box-shadow: 0rem 0rem 2rem 2px hsla(0, 0%, 0%, 10%);
 
     background: var(--Very-Light-Gray);
@@ -96,3 +95,24 @@ body main .component  .col-2 {
     gap: 5rem;
 }
 
+/* INDIVIDUAIS */
+
+/* supervisor */
+body main .component .col.supervisor {
+    border-top: 0.5rem solid var(--Cyan);
+}
+
+/* team builder */
+body main .component .col.team-builder {
+    border-top: 0.5rem solid var(--Red);
+}
+
+/* karma */
+body main .component .col.karma {
+    border-top: 0.5rem solid var(--Orange);
+}
+
+/* supervisor */
+body main .component .col.calculator {
+    border-top: 0.5rem solid var(--Blue);
+}
