@@ -1,3 +1,6 @@
+body {
+    background: var(--Very-Light-Gray);
+}
 
 /* HEADER */
 body header{
@@ -6,9 +9,21 @@ body header{
     align-items: center;
     justify-content: center;
     text-align: center;
+    padding-top: 7rem;
 }
 
 /* h1 */
+body header h1 {
+    font-size: 2rem;
+    font-weight: 400;
+    color: var(--Grayish-Blue);
+}
+
+/* b */
 body header h1 b {
+    font-size: 2rem;
+    margin-top: 0.5rem;
     display: block;
+
+    color: var( --Very-Dark-Blue);
 }
