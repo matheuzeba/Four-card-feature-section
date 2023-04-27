@@ -37,23 +37,33 @@ body header p {
     color: var(--Grayish-Blue);
 }
 
-/* COL */
+/* MAIN */
 body main {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
+/* COL */
 body main .col {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
     width: 100%;
     max-width: 37rem;
-    height: 25rem;
-    
+    height: 20rem;
+
     padding: 2rem;
     
 }
 
 /* img */
+body main .col .image-wrapper {
+    display: flex;
+    justify-content: end;
+}
+
 body main .col .image-wrapper img{
     max-width: 6.4rem;
 }
