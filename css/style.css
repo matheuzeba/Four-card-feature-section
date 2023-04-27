@@ -9,7 +9,7 @@ body header{
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding-top: 7rem;
+    padding: 7rem 4rem;
 }
 
 /* h1 */
@@ -26,4 +26,11 @@ body header h1 b {
     display: block;
 
     color: var( --Very-Dark-Blue);
+}
+
+/* P */
+body header p {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    color: var(--Grayish-Blue);
 }
