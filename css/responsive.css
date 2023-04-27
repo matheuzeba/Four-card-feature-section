@@ -1,0 +1,13 @@
+@media (min-width: 1300px) {
+    body main .component {
+        flex-direction: row;
+    }
+    
+    body header h1,
+    body header h1 b {
+        font-size: 3rem;
+    }
+    body header p{
+        font-size: 2rem;
+    }
+}

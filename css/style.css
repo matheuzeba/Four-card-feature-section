@@ -59,7 +59,7 @@ body main .component .col {
 
     padding: 2rem;
     border-radius: 1rem;
-    box-shadow: 0rem 0rem 2rem 2px hsla(0, 0%, 0%, 10%);
+    box-shadow: 0rem 0rem 2rem 2px hsla(0, 0%, 0%, 15%);
 
     background: var(--Very-Light-Gray);
     
